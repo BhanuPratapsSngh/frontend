@@ -34,7 +34,7 @@ export const productsApiSlice = apiSlice.injectEndpoints({
     }),
     uploadProductImage: builder.mutation({
       query: (data) => ({
-        url: `/api/upload`,
+        url: `whimsical-pithivier-66936b/api/upload`,
         method: 'POST',
         body: data,
       }),
